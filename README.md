@@ -8,4 +8,4 @@ a little game while learning React
 
 
 Here is a scene of it:
-![https://github.com/ThestralZhang/Slot/tree/screenshots/slot-run.gif]
+![https://github.com/ThestralZhang/Slot/blob/master/screenshots/slot-run.gif]
