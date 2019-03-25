@@ -1,0 +1,32 @@
+.ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: hotpink;
+
+    float: left;
+}
+
+#ball1{
+    transform: translateX(60px);
+}
+
+#ball2{
+    transform: translateX(120px);
+}
+
+#ball3{
+    transform: translate(180px);
+}
+
+#ball4{
+    transform: translateX(240px);
+}
+
+li{
+    list-style: none;
+}
+
+.scroll{
+    float: left;
+}

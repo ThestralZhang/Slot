@@ -1,0 +1,114 @@
+.slot{
+    text-align: center;
+}
+
+.credit{
+    font-size: 30px;
+    color: gray;
+}
+
+.score{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffdd01
+}
+
+.wager input, .wager button{
+    display: inline-block;
+
+    height: 30px;
+    border-radius: 8px;
+}
+
+.wager input{
+    margin-right: 3px;
+    border: 1px solid #e42519;
+
+    color: #e42519;
+    text-align: center;
+    font-size: 14px;
+    outline: none;
+}
+
+.wager button{
+    width: 50px;
+    margin-left: 3px;
+    border: 1px solid gray;
+
+    font-size: 14px;
+    color: gray;
+    background-color: white;
+    outline: none;
+}
+
+.wager button:hover{
+    border: none;
+
+    color: white;
+    background-color: #e42519;
+}
+
+.frame{
+    width: 500px;
+    height: 360px;
+    /*border: 1px solid gray;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.mask{
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0) 67%, rgba(255, 255, 255, 1));
+    position: absolute;
+    z-index: 100;
+}
+
+.box{
+    width: 120px;
+    height: 120px;
+    border: 2px solid gray;
+    position: absolute;
+    z-index: 200;
+
+    top: 25%;
+    left: 50%;
+    margin-top: 60px;
+    margin-left: -60px;
+}
+
+.scroll{
+    width: 33.3%;
+    height: 200%;
+    float: left;
+    z-index: 1;
+
+    position: relative;
+    text-align: center;
+    transform: translateY(-120px);
+
+}
+
+.scroll ul{
+    margin: 0;
+    padding: 0;
+
+    display: inline;
+}
+
+.scroll li{
+    width: 120px;
+    height: 120px;
+    /*border: 1px solid black;*/
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
